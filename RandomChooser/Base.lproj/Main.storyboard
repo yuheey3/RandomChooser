@@ -41,6 +41,9 @@
                                     <constraint firstAttribute="height" constant="89" id="hNL-x0-HsV"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="minus"/>
+                                <connections>
+                                    <action selector="btnMinus" destination="BYZ-38-t0r" eventType="touchUpInside" id="wAG-ui-AEb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jmW-1m-Fqq">
                                 <rect key="frame" x="277" y="375" width="92" height="92"/>
@@ -48,6 +51,9 @@
                                     <constraint firstAttribute="height" constant="92" id="QEI-5g-Da1"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="plus"/>
+                                <connections>
+                                    <action selector="btnPlus" destination="BYZ-38-t0r" eventType="touchUpInside" id="6pf-mr-YP8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eU0-3Z-sdG">
                                 <rect key="frame" x="128" y="642" width="158" height="67"/>
@@ -90,6 +96,9 @@
                             <constraint firstItem="SfR-Bo-rNX" firstAttribute="top" secondItem="KVg-Vb-3vA" secondAttribute="bottom" constant="22" id="x20-Sz-qVF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lblNumber" destination="MAA-sb-epI" id="4vg-sh-Xkl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
