@@ -25,7 +25,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Random Chooser" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF3-YJ-izw">
                                 <rect key="frame" x="77" y="364" width="261" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="42" id="HXr-GC-891"/>
+                                    <constraint firstAttribute="height" constant="42" id="LaL-wz-pfw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="35"/>
                                 <color key="textColor" systemColor="systemPurpleColor"/>
@@ -35,17 +35,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="M9I-9h-mYK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="09b-Bm-lPZ"/>
-                            <constraint firstItem="dF3-YJ-izw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="4QO-lK-09Q"/>
-                            <constraint firstItem="M9I-9h-mYK" firstAttribute="centerX" secondItem="dF3-YJ-izw" secondAttribute="centerX" id="6Qj-vT-uQ3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dF3-YJ-izw" secondAttribute="bottom" constant="456" id="91D-mV-rah"/>
-                            <constraint firstItem="LfZ-rJ-rGw" firstAttribute="centerX" secondItem="dF3-YJ-izw" secondAttribute="centerX" id="LNS-21-AfK"/>
-                            <constraint firstItem="LfZ-rJ-rGw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="a4q-sY-J3X"/>
-                            <constraint firstItem="M9I-9h-mYK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="133" id="c1s-m4-dlr"/>
-                            <constraint firstItem="LfZ-rJ-rGw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="pN9-jU-Xuf"/>
-                            <constraint firstItem="LfZ-rJ-rGw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ret-uR-T2i"/>
-                            <constraint firstItem="dF3-YJ-izw" firstAttribute="top" secondItem="M9I-9h-mYK" secondAttribute="bottom" constant="80" id="stf-uI-AEW"/>
-                            <constraint firstItem="LfZ-rJ-rGw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tGZ-a3-4QF"/>
+                            <constraint firstItem="M9I-9h-mYK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="C4c-oM-zRI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dF3-YJ-izw" secondAttribute="bottom" constant="456" id="EJn-px-O5R"/>
+                            <constraint firstItem="dF3-YJ-izw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="G82-dj-Ydr"/>
+                            <constraint firstItem="dF3-YJ-izw" firstAttribute="top" secondItem="M9I-9h-mYK" secondAttribute="bottom" constant="80" id="JQp-Og-Y3y"/>
+                            <constraint firstItem="LfZ-rJ-rGw" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="-44" id="NRJ-oE-9Jv"/>
+                            <constraint firstItem="LfZ-rJ-rGw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Pha-jm-xRr"/>
+                            <constraint firstItem="LfZ-rJ-rGw" firstAttribute="centerX" secondItem="dF3-YJ-izw" secondAttribute="centerX" id="TeT-sD-ATy"/>
+                            <constraint firstItem="M9I-9h-mYK" firstAttribute="centerX" secondItem="dF3-YJ-izw" secondAttribute="centerX" id="Vqd-EC-IxC"/>
+                            <constraint firstItem="LfZ-rJ-rGw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Xxj-hV-tOI"/>
+                            <constraint firstItem="LfZ-rJ-rGw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="b7O-az-Ndi"/>
+                            <constraint firstItem="M9I-9h-mYK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="133" id="xhx-sT-vYr"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -35,6 +35,19 @@ class ViewController: UIViewController {
         self.lblNumber.text = String(numOption)
         }
     }
+    
+    @IBAction func goToSettingRandomPage(){
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        
+        let settingRandomVC = storyboard.instantiateViewController(identifier: "SettingRandomVC") as! SettingRandomViewController
+        
+       // settingRandomVC.numWon = self.numWon
+       // settingRandomVC.numLost = self.numLost
+        
+       
+        
+        self.navigationController?.pushViewController(settingRandomVC, animated: true)
+    }
 
 }
 
