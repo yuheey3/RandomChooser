@@ -19,6 +19,8 @@
 		553A6E8926EFA8F000960846 /* Result3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A6E8826EFA8F000960846 /* Result3ViewController.swift */; };
 		553A6E8B26F1B7C900960846 /* SettingRandom4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A6E8A26F1B7C900960846 /* SettingRandom4ViewController.swift */; };
 		553A6E8D26F1BCAF00960846 /* Result4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A6E8C26F1BCAF00960846 /* Result4ViewController.swift */; };
+		553A6E8F26F1C69100960846 /* SettingRandom5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A6E8E26F1C69100960846 /* SettingRandom5ViewController.swift */; };
+		553A6E9126F1C74300960846 /* Result5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A6E9026F1C74300960846 /* Result5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		553A6E8826EFA8F000960846 /* Result3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result3ViewController.swift; sourceTree = "<group>"; };
 		553A6E8A26F1B7C900960846 /* SettingRandom4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRandom4ViewController.swift; sourceTree = "<group>"; };
 		553A6E8C26F1BCAF00960846 /* Result4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result4ViewController.swift; sourceTree = "<group>"; };
+		553A6E8E26F1C69100960846 /* SettingRandom5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRandom5ViewController.swift; sourceTree = "<group>"; };
+		553A6E9026F1C74300960846 /* Result5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result5ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				553A6E8826EFA8F000960846 /* Result3ViewController.swift */,
 				553A6E8A26F1B7C900960846 /* SettingRandom4ViewController.swift */,
 				553A6E8C26F1BCAF00960846 /* Result4ViewController.swift */,
+				553A6E8E26F1C69100960846 /* SettingRandom5ViewController.swift */,
+				553A6E9026F1C74300960846 /* Result5ViewController.swift */,
 			);
 			path = RandomChooser;
 			sourceTree = "<group>";
@@ -159,10 +165,12 @@
 				553A6E8926EFA8F000960846 /* Result3ViewController.swift in Sources */,
 				553A6E8526E6894300960846 /* ResultViewController.swift in Sources */,
 				553A6E8B26F1B7C900960846 /* SettingRandom4ViewController.swift in Sources */,
+				553A6E8F26F1C69100960846 /* SettingRandom5ViewController.swift in Sources */,
 				553A6E8D26F1BCAF00960846 /* Result4ViewController.swift in Sources */,
 				553A6E7326E5338900960846 /* ViewController.swift in Sources */,
 				553A6E6F26E5338900960846 /* AppDelegate.swift in Sources */,
 				553A6E8326E5590500960846 /* SettingRandomViewController.swift in Sources */,
+				553A6E9126F1C74300960846 /* Result5ViewController.swift in Sources */,
 				553A6E7126E5338900960846 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
