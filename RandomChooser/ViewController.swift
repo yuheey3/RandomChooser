@@ -49,6 +49,11 @@ class ViewController: UIViewController {
             
             self.navigationController?.pushViewController(settingRandom3VC, animated: true)
         }
+        else if(numOption == 4){
+            let settingRandom4VC = storyboard.instantiateViewController(identifier: "SettingRandom4VC") as! SettingRandom4ViewController
+            
+            self.navigationController?.pushViewController(settingRandom4VC, animated: true)
+        }
         
        // settingRandomVC.numWon = self.numWon
        // settingRandomVC.numLost = self.numLost
