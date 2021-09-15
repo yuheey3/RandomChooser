@@ -39,14 +39,23 @@ class ViewController: UIViewController {
     @IBAction func goToSettingRandomPage(){
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
         
+        if(numOption == 2){
         let settingRandomVC = storyboard.instantiateViewController(identifier: "SettingRandomVC") as! SettingRandomViewController
+            
+            self.navigationController?.pushViewController(settingRandomVC, animated: true)
+        }
+        else if(numOption == 3){
+            let settingRandom3VC = storyboard.instantiateViewController(identifier: "SettingRandom3VC") as! SettingRandom3ViewController
+            
+            self.navigationController?.pushViewController(settingRandom3VC, animated: true)
+        }
         
        // settingRandomVC.numWon = self.numWon
        // settingRandomVC.numLost = self.numLost
         
        
         
-        self.navigationController?.pushViewController(settingRandomVC, animated: true)
+        
     }
 
 }
