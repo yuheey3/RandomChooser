@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func btnPlus(){
-        if(numOption != 6){
+        if(numOption != 5){
         numOption += 1
         self.lblNumber.text = String(numOption)
         }
