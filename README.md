@@ -1,6 +1,10 @@
 # RandomChooser
+
 Random Chooser App 
-User can choose 2 to 5 option
+
+This app helps people to choose something.
+
+2 to 5 options are available.
 
 
 ## Screenshots
